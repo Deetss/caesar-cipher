@@ -17,6 +17,8 @@ def caesar_cipher text, count
                     end
                 end
                 new_text << letter
+            else
+                new_text << letter
             end
         end
     end
